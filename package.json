@@ -6,7 +6,7 @@
   "style": "daterangepicker.css",
   "scripts": {
     "scss": "node-sass daterangepicker.scss > daterangepicker.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,10 @@
   },
   "devDependencies": {
     "jasmine": "^3.3.0",
+    "jasmine-jquery": "^2.1.1",
     "karma": "^3.1.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^2.0.1",
-    "node-sass": "^3.4.2"  }
+    "node-sass": "^3.4.2"
+  }
 }
